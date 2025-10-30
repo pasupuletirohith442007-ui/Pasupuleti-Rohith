@@ -1,0 +1,16 @@
+# Swapping two numbers
+
+# Input from user
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Before swapping:")
+print("a =", a, "b =", b)
+
+# Swapping using a temporary variable
+temp = a
+a = b
+b = temp
+
+print("After swapping:")
+print("a =", a, "b =", b)
